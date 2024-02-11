@@ -1,0 +1,35 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+  height: 100%;
+}
+
+.container{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  gap: 30px;
+}
+
+.input{
+  background-color: #fff;
+  color: black;
+  padding: 10px 15px;
+  border-radius: 12px;
+  border: 1px solid gray;
+  width: 300px;
+  margin-top: 100px;
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

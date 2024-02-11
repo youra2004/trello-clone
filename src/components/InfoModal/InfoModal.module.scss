@@ -1,0 +1,53 @@
+.details{
+  display: flex;
+  flex-direction: column;
+  color: #242424;
+}
+
+.title {
+  font-size: 22px;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 14px;
+  padding-left: 20px;
+};
+
+.description {
+  line-height: 1.5;
+  padding-left: 20px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+
+  h3 {
+    margin: 0;
+  }
+}
+
+.button {
+  padding: 10px 30px;
+  border-radius: 4px;
+  border: 0;
+  cursor: pointer;
+  background-color: #242424;
+  border: 1px solid #242424;
+  transition: all 300ms ease-in-out;
+  margin-top: 20px;
+
+  &:hover {
+    background-color: #fff;
+    color: #242424;
+  }
+}

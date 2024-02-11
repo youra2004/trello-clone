@@ -1,0 +1,38 @@
+.column {
+  background-color: #EBECF0;
+  width: 200px;
+  padding: 5px 10px;
+  border-radius: 6px;
+  color: #242424;
+  margin-top: 100px;
+}
+
+.header {
+  margin: 0;
+  font-size: 16px;
+  text-align: left;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin-top: 15px;
+}
+
+.addBlock{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 7px;
+  padding: 5px 10px;
+  gap: 15px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 300ms ease-in-out;
+
+
+  &:hover{
+    background-color: #bdbec1;
+  }
+}
